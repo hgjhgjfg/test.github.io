@@ -1,0 +1,61 @@
+table {
+    text-align: center;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: #e6f7ff;
+    border: 2px solid skyblue; /* 테두리만 하늘색 */
+}
+
+caption {
+    font-size: 180%;
+    margin-bottom: 15px;
+    color: #007acc;
+    font-weight: bold;
+    border-bottom: 2px solid skyblue;
+    padding-bottom: 5px;
+}
+
+th, td {
+    border: 1px solid white; /* 셀 내부 테두리는 하얀색 */
+    padding: 10px;
+    font-size: 0.95em;
+}
+
+thead th {
+    background-color: #b3e5fc;
+    color: #003d66;
+    font-weight: bold;
+}
+
+tbody th {
+    background-color: #d0f0ff;
+    color: #004466;
+    font-weight: bold;
+}
+
+.lunch-link {
+    background-color: #cceeff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-top: 2px solid skyblue;
+    border-bottom: 2px solid skyblue;
+}
+
+.lunch-link a {
+    text-decoration: none;
+    color: #003d66;
+    display: block;
+    padding: 12px;
+    transition: background-color 0.3s;
+}
+
+.lunch-link a:hover {
+    background-color: #b3e5fc;
+}
+
+td:empty {
+    background-color: #f0fbff;
+}
+
+
