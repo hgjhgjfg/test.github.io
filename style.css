@@ -3,7 +3,7 @@ table {
     margin: 40px auto;
     border-collapse: collapse;
     background-color: #e6f7ff;
-    border: 2px solid skyblue; /* 테두리만 하늘색 */
+    border: 2px solid skyblue; 
 }
 
 caption {
@@ -16,7 +16,7 @@ caption {
 }
 
 th, td {
-    border: 1px solid white; /* 셀 내부 테두리는 하얀색 */
+    border: 1px solid white;
     padding: 10px;
     font-size: 0.95em;
 }
